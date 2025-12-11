@@ -1,0 +1,26 @@
+# PDF Question-Answering System with RAG
+# Python 3.10+ required
+
+# Core LLM and embeddings
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+langchain-ollama>=0.2.0
+
+# Vector database
+chromadb>=0.4.22
+langchain-chroma>=0.1.0
+
+# PDF processing
+PyMuPDF>=1.23.0
+
+# Web UI
+streamlit>=1.30.0
+
+# HTTP requests (for Ollama health checks)
+requests>=2.31.0
+
+# Utilities
+python-dotenv>=1.0.0
+
